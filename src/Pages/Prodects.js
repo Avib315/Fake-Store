@@ -19,7 +19,7 @@ return (
     <h2 className={Style.titlePro}>{parm}: </h2>
     <div className={Style.box}>
     {prodects.map(value => {
-        return  <ProdectsDiv img= {value.image} title={value.title} price ={value.price} id={value.id} key ={value.id} addToCart={props.addToCart}  removeFromCart={props.removeFromCart} item={value} />
+        return  <ProdectsDiv img= {value.image} title={value.title} price ={value.price} id={value.id} key ={value.id} addToCart={props.addToCart}  removeFromCart={props.removeFromCart} item={value} inCart={props.cartArr.find(v=>v.id == value.id)} />
     })}
       </div>
     </div>

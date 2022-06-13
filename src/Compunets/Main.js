@@ -48,7 +48,7 @@ export default function Main() {
                     <div className='gg'>
                         <Routes>
                             <Route path='/' element={<Categories />} />
-                            <Route path='/prodects/:name' element={<Prodects addToCart={addToCart} removeFromCart={removeFromCart} />} />
+                            <Route path='/prodects/:name' element={<Prodects addToCart={addToCart} removeFromCart={removeFromCart} cartArr={cartArr} />} />
                             <Route path='/item/:id' element={<Item addToCart={addToCart} />} />
                             <Route path='/login' element={<LogIn />} />
                         </Routes>
