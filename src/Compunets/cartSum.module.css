@@ -1,0 +1,10 @@
+.divSum{
+   
+    text-align: center;
+    position: sticky;
+    width: 270px;
+    box-sizing: border-box;
+    font-size: 30px;
+    height: 50px;
+    text-shadow: 0 0 3px aqua, 0 0 5px aquamarine;
+}

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  text-transform: capitalize;
+  background-color: rgb(199, 245, 255);
+}
+
+a{
+  text-decoration: none;
+}
+a:any-link{
+  color: black;
+}
+#men{
+  background-image: url(https://img01.ztat.net/article/spp-media-p1/8fb968e6777843d398ebdbd91b157cee/e8c33428fdc6487b99b69f9c9313ad20.jpg?imwidth=300&filter=packshot);
+}
+#electronics{
+  background-image: url(https://c.stocksy.com/a/Gfn000/z9/190914.jpg);
+}
+#women{
+  background-image: url(https://media.istockphoto.com/photos/womens-clothing-with-personal-accessories-picture-id1224554520?k=20&m=1224554520&s=612x612&w=0&h=OcoQfBmkmo-iX8GP9qdRfz9ymZpf1-ppldVrwZzskSs=);
+}
+#jewelery{
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/31MKvGsa5XL.jpg);
+}

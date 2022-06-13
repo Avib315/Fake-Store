@@ -1,0 +1,22 @@
+.App {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv{
+  background-color: aliceblue;
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  display: inline-block;
+  border: 1px solid;
+  margin-top: 0;
+  margin: auto;
+  min-width: 1200px;
+  margin-left: 100px;
+  min-height: 650px;
+  z-index: 1;
+}
+  

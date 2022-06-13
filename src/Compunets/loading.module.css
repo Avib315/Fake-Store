@@ -1,0 +1,38 @@
+.Loading{
+   z-index: 1;
+   opacity: 1;
+    border: 1px solid grey;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 200px;
+   width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 20px     ;
+  flex-wrap: nowrap;
+    animation: MyLoading infinite 5s linear ;
+}
+@keyframes MyLoading {
+    0%{transform: scale(1);}
+    100%{transform: scale(1.5)}
+}
+.LoadingTitle{
+ margin-left: 50px;
+    font-size: 20px;
+ 
+}
+.weel{
+    margin-top: 14px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn7K5pVCnhboK5I40OCPg3f35Q6Kt50M-wd0f_d6x7LLTe1tfEpmGaQ5t4rlZqeNFhsEo&usqp=CAU);
+    background-position: center;
+    background-size:cover;
+    border-radius: 50%;   
+    animation: MyWeel infinite 1s linear;  
+}
+@keyframes MyWeel{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg)}
+}

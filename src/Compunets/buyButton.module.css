@@ -1,0 +1,21 @@
+.buttonDiv{
+    margin: auto;
+}
+.buyButton{
+    border: 6px solid floralwhite;
+    text-transform: capitalize; 
+    font-size: 20px;
+    width: 150px;
+    border-radius: 30px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(0, 94, 255);
+    font-family: arial; color: white;   
+    
+}
+.buyButton:hover{
+   
+    cursor: pointer;
+    transform: scale(1.06);
+}

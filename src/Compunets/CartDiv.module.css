@@ -1,0 +1,33 @@
+.cartDivBox{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 295px;
+    min-height: 180px;
+
+}
+.pic{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+}
+.ulCart{
+    margin-left: -40px;
+    list-style: none;
+}
+.cartLi{
+    padding: 0;
+}
+.cartUlDiv{
+    width: 160px;
+}
+.priceSpan{
+    font-weight: 700;
+}
+.cartPicBtnDiv{
+    margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+.logInDiv{
+    width: 400px;
+    height: 260px;
+    margin: auto;
+    margin-top: 150px;
+    border: 12px outset grey;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.logInput{
+    border-radius: 10px;
+    width: 300px;
+    padding: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+.enterBtn{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: azure;
+}
+.enterBtn:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
+.titleLog{
+    font-size: 35px;
+}

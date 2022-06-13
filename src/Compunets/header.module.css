@@ -1,0 +1,49 @@
+.HeaderDiv{
+    position: sticky;
+    top: 0;
+    background-color: azure;
+    padding: 10px;
+    box-shadow: 3px 3px 10px 12px rgba(0,0,0,0.37);
+    margin-bottom:30px ;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    padding: 0;
+    margin: 0;
+    font-size: 55px;
+    margin-left: 30px;
+    text-shadow: 0 0 3px aqua, 0 0 5px aquamarine;
+    display: block;
+    width: 200px;
+}
+.homeLink{
+
+    width: 200px;
+}
+.logTitle{
+  
+    margin-right: 20px;
+    text-shadow: 1px 1px 3px aqua, 0 0 5px aquamarine;
+}
+
+.logTitle:hover{
+
+        text-shadow: 2px 2px 3px blue, 1px 1px 3px rgb(75, 130, 175);
+    transform: scale(1.12);
+}
+
+.registerTitle{
+    text-shadow: 1px 1px 3px aqua, 0 0 5px aquamarine;
+
+}
+.userDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.registerTitle:hover{
+    text-shadow: 2px 2px 3px blue, 1px 1px 3px rgb(75, 130, 175);
+    transform: scale(1.12);
+}
